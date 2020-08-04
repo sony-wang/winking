@@ -1,0 +1,265 @@
+
+
+
+
+.banner_game_logo{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+.game_banner:before{
+    content: '';
+    position: absolute;
+    background-image: linear-gradient(#00000000 10%, #ffffff);
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#top-tittle-1-1 {
+    font-size: 8em;
+    transform: translate(0%, 55%);
+}
+#top-tittle-1-2{
+    font-size: 6em;
+    transform: translate(20%, 90%);
+}
+
+
+.article p{
+    font-size: 1.4rem;
+}
+
+.art_list{
+    border-top: 1px solid rgb(145, 0, 56);
+}
+.art_list a{
+    color: #000;
+}
+.art_list:last-child{
+    border-bottom: 1px solid rgb(145, 0, 56);
+}
+
+.art_list:hover {
+    background-color: rgb(145, 0, 56);
+    color: #fff;
+    transition: all 0.5s ease 0s;
+}
+.art_list:hover a{
+    color:#fff;
+    text-decoration: none;
+}
+.insidetittle p{
+    font-size: 2em;
+}
+.description p{
+    font-size: 1.2em;
+}
+
+#svgTextPath2{
+    transform: translate(40%, 0px);
+}
+
+#svgTextPath3{
+    transform: translate(0%, 0px);
+}
+
+
+#section3-corp {
+    width: 100%;
+    min-height: 600px;
+    background-size: cover;
+    background-color: rgb(187, 187, 187);
+    opacity: 0.9;
+    padding: 0px;
+}
+
+
+#section3-button {
+    display: block;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 1.2rem;
+    left: calc(50% - 15vh);
+    outline: none;
+    text-decoration: none;
+    transition: all 0.5s ease 0s;
+    font-family: Arial;
+}
+
+.hvr-bounce-to-right {
+    color: rgb(145, 0, 56);
+    display: inline-block;
+    transform: perspective(1px) translateZ(0px);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 1px;
+    /* transition-property: color; */
+    transition-duration: 0.5s;
+    border-width: 1.2px;
+    border-style: solid;
+    border-color: rgb(145, 0, 56);
+    border-image: initial;
+}
+.hvr-bounce-to-right::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    transform: scaleX(0);
+    transform-origin: 0px 50%;
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    background: rgb(145, 0, 56);
+}
+
+.hvr-bounce-to-right:hover, .hvr-bounce-to-right:focus, .hvr-bounce-to-right:active {
+    cursor: pointer;
+    color: white !important;
+}
+
+.hvr-bounce-to-right:hover::before, .hvr-bounce-to-right:focus::before, .hvr-bounce-to-right:active::before {
+    transform: scaleX(1);
+}
+
+#top-tittle-6{
+    position: relative;
+    top: 300px;
+}
+.subtitle{
+    margin: 2rem 0;
+    font-size: 60px;
+}
+
+
+.game_title{
+    font-size: 2rem;
+}
+
+.game_phase{
+    padding-top: 20px;
+    background-color: #aaa;
+    color: #fff;
+}
+.game_phase p{
+    font-size: 1rem!important;
+    
+}
+
+
+.work_with_us{
+    background: url(../img/services/work_with_us.jpg) no-repeat center;
+    background-size: cover;
+    background-position-y: 32%;
+    box-shadow: 2px 3px 20px #666;
+    padding: 10% 5%;
+}
+
+.game_logo_wrap{
+   padding: 1%;
+}
+
+.game_logo{
+    width: 14%;
+    /* display: flex; */
+}
+
+
+.game_logo img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.work_with_us img{
+    max-width: 50px;
+}
+.work_with_us h2{
+    font-size: 60px;
+}
+.work_with_us h3{
+    font-size: 40px;
+}
+.work_with_us h4{
+    font-size: 28px;
+}
+.text_wwu{
+    color: rgb(238, 34, 112);;
+}
+p.work_with_us_content{
+    font-size: 60px;
+}
+.wwu_whyus p{
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:1200px){
+    
+}
+@media screen and (max-width:992px){
+   
+    #top-tittle-1-1 {
+        font-size: 6em;
+        transform: translate(0%, 55%);
+    }
+    #top-tittle-1-2{
+        font-size: 5em;
+        transform: translate(20%, 90%);
+    }
+}
+@media screen and (max-width:768px){
+    #top-tittle-1-1 {
+        font-size: 4em;
+        transform: translate(0%, 55%);
+    }
+    #top-tittle-1-2{
+        font-size: 4em;
+        transform: translate(20%, 80%);
+    }
+
+    .game_logo{
+        width: 20%;
+    }
+
+    .wwu_whyus{
+        margin-top: 55px;
+    }
+
+    .work_with_us h2{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:576px){
+    p.work_with_us_content{
+        font-size: 30px;
+    }
+    .game_logo {
+        width: 33%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

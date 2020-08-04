@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WINKING CORORATION</title>
+  <!-- <link href="https://fonts.googleapis.com../css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet" /> -->
+  <!-- <link href="https://fonts.googleapis.com../css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet"> -->
+  <!-- <link href="https://fonts.googleapis.com../css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> -->
+  <!-- <link href="https://fonts.googleapis.com../css2?family=Great+Vibes&display=swap" rel="stylesheet"> -->
+  
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="../css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/common.css">
+</head>
+
+<body>
+  <div id="particles-js"></div>
+  <header></header>
+  <span id="position"></span>
+  <button id="goTop">top</button>
+  
+  <!-- BANNER -->
+  <div id="banner" class="carousel slide carousel-fade" data-ride="carousel">
+    <!-- <ol class="carousel-indicators d-md-flex d-none">
+      <li data-target="#banner" data-slide-to="0" class="active"></li>
+      <li data-target="#banner" data-slide-to="1"></li>
+      <li data-target="#banner" data-slide-to="2"></li>
+      <li data-target="#banner" data-slide-to="3"></li>
+      <li data-target="#banner" data-slide-to="4"></li>
+      <li data-target="#banner" data-slide-to="5"></li>
+    </ol> -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="../img/homepage/banner/01.png" alt="First slide">
+        <!-- <div class="d-block w-100" style="background: url(../img/homepage/banner/01.jpg); background-size:cover; height:100vh"></div> -->
+        <div class="carousel-caption-de d-md-block w-50 pl-3 pr-3 pt-5 pb-5">
+          <h3>命运 2</h3>
+          <p>
+            《Destiny 2》是一款由Bungie制作，Activision发行的AAA级别游戏，无论是PC还是PS4,XBOX ONE上都可以免费体验到的一款FPS游戏。
+          </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="../img/homepage/banner/02.png" alt="Second slide">
+        <!-- <div class="d-block w-100" style="background: url(../img/homepage/banner/02.jpg); background-size:cover; height:100vh"></div> -->
+        <div class="carousel-caption-de d-md-block w-50 pl-3 pr-3 pt-5 pb-5">
+          <h3>Call of Duty 系列</h3>
+          <p>
+            《Call of Duty》系列是由美国动视发行的第一人称射击类游戏。从PC、XBOX360、PS3、WiiU、PS4、XBOX ONE到iOS/安卓，该系列几乎包含所有游戏平台。无论是3A画质的大作还是随时可玩的手游都给玩家们带来了丰富的游戏世界观和体验。
+          </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="../img/homepage/banner/03.png" alt="Third slide">
+        <!-- <div class="d-block w-100" style="background: url(../img/homepage/banner/03.jpg); background-size:cover; height:100vh"></div> -->
+        <div class="carousel-caption-de d-md-block w-50 pl-3 pr-3 pt-5 pb-5">
+          <h3>Final Fantasy XIV</h3>
+          <p>
+            FFXIV是由日本游戏开发商史克威尔艾尼克斯（Square Enix）开发的3D大型多人在线角色扮演游戏，于2014年4月23日开启首测，于2014年8月27日在中国大陆正式公测，是最终幻想系列的第十四部游戏作品。
+            在全球最大的MMO媒体MMOsite上获得了“最佳新作MMO游戏奖”、“最受欢迎MMORPG奖”、“最佳画面奖”、“最佳音效奖”殊荣，以及在M!Games Magazine上获得了“必玩游戏”的奖项。
+          </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="../img/homepage/banner/04.png" alt="Third slide">
+        <!-- <div class="d-block w-100" style="background: url(../img/homepage/banner/04.jpg); background-size:cover; height:100vh"></div> -->
+        <div class="carousel-caption-de d-md-block w-50 pl-3 pr-3 pt-5 pb-5">
+          <h3>永恆紀元</h3>
+          <p>
+            《Aion》是一款由韩国NCSoft公司开发的3D大型多人在线角色扮演游戏，于2009年4月16日在中国大陆由盛趣游戏代理运营。
+              游戏不但有PVP，还有PVE和PVX，其战斗系统动作流畅，技能和特效炫丽，引擎则采与《FarCry》相同的“Cry engine”。
+          </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="../img/homepage/banner/05.png" alt="Third slide">
+        <!-- <div class="d-block w-100" style="background: url(../img/homepage/banner/05.jpg); background-size:cover; height:100vh"></div> -->
+        <div class="carousel-caption-de d-md-block w-50 pl-3 pr-3 pt-5 pb-5">
+          <h3>明日之後</h3>
+          <p>
+            《明日之后》是网易金牌研发团队历时三年打造的末世下的人类生存手游。
+              本游戏主打废土合作生存玩法，以在废土中引导玩家互相帮助，克服恶劣的生存环境为主要理念。以虚拟摇杆为主要操作方式，以营地建设、地图探索、资源采集、战斗对抗等为主要手段，帮助玩家逐步提升自己的能力和庄园等级。
+          </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="../img/homepage/banner/06.png" alt="Third slide">
+        <!-- <div class="d-block w-100" style="background: url(../img/homepage/banner/06.jpg); background-size:cover; height:100vh"></div> -->
+        <div class="carousel-caption-de d-md-block w-50 pl-3 pr-3 pt-5 pb-5">
+          <h3>崩壞 3</h3>
+          <p>
+            《崩坏3》是由米哈游科技(上海)有限公司制作发行的一款角色扮演类手机游戏，该作于2016年10月14日全平台公测。
+              游戏讲述了世界受到神秘灾害"崩坏"侵蚀的故事，玩家可扮演白夜执事、第六夜想曲等女武神，去抵抗崩坏的入侵，维护好这个世界的和平。
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- <a class="carousel-control-prev" href="#banner" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#banner" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a> -->
+  </div>
+  <!-- BANNER結束 -->
+
+  <!-- Art Outsourcing -->
+  <div class="article overflow-hidden">
+    <div class="container">
+      <!-- 手電筒 -->
+      <div class="text-box text-box-1">
+        <svg>
+          <defs>
+            <clipPath id="svgTextPath1">
+              <text id="top-tittle-1-1">美术</text>
+              <text id="top-tittle-1-2">外包</text>
+            </clipPath>
+          </defs>
+        </svg>
+        <span class="dot dot1"></span>
+        <span class="dot dot1"></span>
+        <span class="dot dot1"></span>
+      </div>
+      <div class="text-pure pt-3 pb-2" style="display:none;">
+        <h2  class="subtitle position-relative">美术
+          外包
+        </h2>
+      </div>
+
+      <div class="position-relative w-100">
+        <p class="ff_1">
+          唯晶科技拥有将近20年的发展历史，集结了来自全球各地400多名最具艺术创作能量的设计师。我们以专注的精神提供客户绝佳质量的项目。
+        </p>
+      </div>
+
+      <div class="position-relative mb-5">
+        <div id="img1" class="art_list">
+          <a href="./services.html#services_2d" class="d-flex justify-content-around pt-3 pb-3">
+            <div class="row w-100">
+              <div class="insidetittle col-12 col-md-3">
+                <p class="text-center ff_2 mb-0">2D 原畫</p>
+              </div>
+              <div class="description col-12 col-md-9">
+                <p class="mb-0">角色原画，场景原画，立绘插画 / 海报</p>
+              </div>
+            </div>
+            
+          </a>
+          <div id="img2" style=" position: fixed; z-index: 999; display: none;">
+            <img src="../img/01.png" />
+          </div>
+        </div>
+
+        <div id="img3" class="art_list">
+          <a href="./services.html#services_3d" class="d-md-flex justify-content-around pt-3 pb-3">
+            <div class="row w-100">
+              <div class="insidetittle col-12 col-md-3">
+              <p class="text-center ff_2 mb-0">3D 模型</p>
+            </div>
+              <div class="description col-12 col-md-9">
+              <p class="mb-0">次世代角色，次世代场景，手绘角色，手绘场景，关卡地编</p>
+            </div>
+          </div>
+          </a>
+          <div id="img4" style="position: fixed; z-index: 999; display: none;">
+            <img src="../img/02.png" />
+          </div>
+        </div>
+
+        <div id="img5" class="art_list">
+          <a href="./services.html#services_animation" class="d-md-flex justify-content-around pt-3 pb-3">
+            <div class="row w-100">
+              <div class="insidetittle col-12 col-md-3">
+                <p class="text-center ff_2 mb-0">游戏动作</p>
+              </div>
+              <div class="description col-12 col-md-9">
+                <p class="mb-0">绑定 / 蒙皮，游戏手K动作，动捕修数据，特效 / Spine / Live 2D，像素动画</p>
+              </div>
+            </div>
+          </a>
+          <div id="img6" style="position: fixed; z-index: 999;  display: none;">
+            <img src="../img/03.png" />
+          </div>
+        </div>
+      </div>
+
+      <div class="text-box text-box-2 mt-5">
+        <svg>
+          <defs>
+            <clipPath id="svgTextPath2">
+              <text id="top-tittle-2-1">About</text>
+              <text id="top-tittle-2-2">Winking Corp</text>
+            </clipPath>
+          </defs>
+        </svg>
+        <span class="dot dot2"></span>
+        <span class="dot dot2"></span>
+        <span class="dot dot2"></span>
+      </div>
+   
+      <div class="text-pure pt-3 pb-2" style="display:none;">
+        <h2  class="subtitle position-relative">About
+          <br>
+          Winking corp
+        </h2>
+      </div>
+
+  </div>
+
+    <!-- END Art Outsourcing  -->
+
+    <div class="position-relative" id="section3-corp"
+      style="z-index:2;background: url('../img/company_2.jpg') no-repeat center;background-size: cover;"
+      data-paroller-factor=".3" ></div>
+    <div class="position-relative w-100 container">
+      <p class="pt-5 pb-3 text-center ff_1">
+        唯晶科技在台北、上海、南京、马尼拉拥有专属的研发工作室，吸收了来自全球各地400多名的员工。从美术外包到全流程整案开发，从PC、Mobile、Switch、Xbox One、PS4、甚至是即将问世的PS5，都有我们深度参与制作的大型项目。
+      </p>
+      <!-- <button class="hvr-bounce-to-right pt-3 pb-3 m-auto" id="section3-button" onclick="location.href='/about.html'">more</button> -->
+      <div class="d-flex justify-content-center">
+        <a href="./about.html" class="loadMore-link site-btn" rel="nofollow">了解唯晶科技</a>
+      </div>
+    </div>
+
+    <div class="w-100 container">
+      <!-- <p class="text-center ">
+        “Imagination is everything. It is the preview of life’s coming
+        attractions.” <br />– Albert Einstein
+      </p> -->
+
+      <div class="text-box text-box-4 quote">
+        <svg>
+          <defs>
+            <clipPath id="svgTextPath4">
+              <text id="top-tittle-5-1">“Imagination is everything. It is the preview of life’s coming attractions.”</text>
+              <text id="top-tittle-5-2">– Albert Einstein</text>
+            </clipPath>
+          </defs>
+        </svg>
+        <span class="dot dot4"></span>
+        <span class="dot dot4"></span>
+        <span class="dot dot4"></span>
+      </div>
+      <div class="text-pure subtitle position-relative pt-3 pb-2 text-center" style="display:none; line-height: 40px">
+        <p>
+          “Imagination is everything. It is the preview of life’s coming attractions.”
+        </p>
+        <p>
+          – Albert Einstein
+        </p>
+      </div>
+
+    </div>
+
+
+
+
+
+
+    <div class="container">
+      <div class="text-box text-box-3">
+        <svg>
+          <defs>
+            <clipPath id="svgTextPath3">
+              <text id="top-tittle-6-1">News</text>
+              <text id="top-tittle-6-2">&</text>
+              <text id="top-tittle-6-3">Blog</text>
+            </clipPath>
+          </defs>
+        </svg>
+        <span class="dot dot3"></span>
+        <span class="dot dot3"></span>
+        <span class="dot dot3"></span>
+      </div>
+
+      <div class="text-pure pt-3 pb-2" style="display:none;">
+        <h2  class="subtitle position-relative">News&Blog</h2>
+      </div>
+
+      <div class="d-flex justify-content-around row">
+
+        <div class="col-12 col-md-4 pt-1 pb-1">
+          <div class="card m-auto">
+            <a href="javascript:;" class="text-muted text-decoration-none" data-toggle="modal" data-target="#home_Modal" id="model_content_01">
+              <div class="card_img">
+                <img class="card-img-top" src="../img/news/01.jpg" alt="">
+              </div>
+              <div class="card-body text-muted">
+                <h3 class="card-title card_title">你所不知道的低调奢华：全球游戏外包产业的现况与机遇</h3>
+                <p class="card-text ff_1 card_txt">台北游戏开发者论坛(TGDF)为台湾规模最大的游戏开发者大会，每年邀请到海内外专业讲者发表演说，集结游戏产业界人士与会交流。今年受到新冠肺炎疫情影响，TGDF首次透过Twitch免费直播方式于7月11、12日举行，以丰富多元的演讲内容吸引了超过三千人次在线观赏。 
+                  </p>
+                  <span>2020.July.11</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 pt-1 pb-1">
+          <div class="card m-auto">
+            <a href="javascript:;" class="text-muted text-decoration-none" data-toggle="modal" data-target="#home_Modal" id="model_content_02">
+              <div class="card_img">
+                <img class="card-img-top" src="../img/news/02.jpg" alt="">
+              </div>
+              <div class="card-body text-muted">
+                <h3 class="card-title card_title">唯晶科技执行长詹承翰出席「5G既出 谁与争锋」论坛与各产业专家共同分享疫后零接触商机</h3>
+                <p class="card-text ff_1 card_txt">在2020年初新冠肺炎(COVID-19)爆发后，各国陆续限制出入境、控管关连人群接触的产业。这样的发展，促使零接触商机成为产业崭新的模式，而5G建设及高速宽带的来临更为游戏产业带来巨大的变化。</p>
+                  <span>2020.July.03</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 pt-1 pb-1">
+          <div class="card m-auto">
+            <a href="javascript:;" class="text-muted text-decoration-none" data-toggle="modal" data-target="#home_Modal" id="model_content_03">
+              <div class="card_img">
+                <img class="card-img-top" src="../img/news/03.jpg" alt="">
+              </div>
+              <div class="card-body text-muted">
+                <h3 class="card-title card_title">Winking Corp and it's participation in AAA game production, Destiny 2: Season of The Worthy</h3>
+                <p class="card-text ff_1 card_txt">Developed by Bungie, Destiny 2 is an MMO FPS that sets its theme around a futuristic world. The same year, Destiny 2 won the Best PC Game at the Game Critics Awards 2017.</p>
+                  <span>2020.April.20</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-5 mb-5 position-relative">
+        <!-- <button class="hvr-bounce-to-right pt-3 pb-3 m-auto" id="section3-button" onclick="location.href='/news&blog.html'">more</button> -->
+        <!--  -->
+        <div class="d-flex justify-content-center">
+          <a href="./news&blog.html" class="loadMore-link site-btn" rel="nofollow">More</a>
+        </div>
+      </div>
+
+
+    </div>
+
+
+    <div class="toall_wrap pt-5">
+      
+      <p class="toall_tittle pl-5 text-left">To All,</p>
+      <p class="toall_content mt-2 mb-5 ff_1">
+        唯晶科技持续将来自全世界游戏创作者的绝佳作品呈现给各位。<br>我们想对所有的玩家、媒体先进、伙伴朋友以及员工表达深深的感谢。
+      </p>
+    </div>
+
+
+
+
+  </div><!-- 跟著尾巴跑 -->
+
+
+  <footer></footer>
+ 
+<!-- Modal -->
+<div class="modal fade" id="home_Modal" tabindex="-1" role="dialog" aria-labelledby="home_Label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="home_ModalLabel">title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12 model_img">
+              <!-- <img class="w-100" src="../img/mydemo.jpg" alt=""> -->
+            </div>
+            <div class="col-md-12 model_txt"></div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/particles/particles.min.js"></script>
+  <script src="../js/particles/app.js"></script>
+  <script src="../js/particles/stats.js"></script>
+  <script src="../js/homepage.js"></script>
+  <script>
+    $(".carousel").carousel({
+      interval: 5000,
+      pause: "false",
+      // wrap: true,
+    });
+
+    let lang = 'sc';
+  </script>
+
+  <!-- 手電筒js -->
+  <script src="../js/TweenMax.min.js"></script>
+  <script src="../js/TweenMax_custom.js"></script>
+
+  <script src="../js/jquery.paroller.min.js"></script>
+  <script src="../js/paroller_custom.js"></script>
+  
+  <script src="../js/axios.min.js"></script>
+  <script src="../js/script.js"></script>
+  
+
+
+
+</body>
+
+</html>

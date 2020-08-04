@@ -1,0 +1,419 @@
+/* banner */
+.carousel-inner{
+    max-height: 100vh;
+    /* overflow: hidden; */
+}
+#banner .carousel-caption{
+    background-color: rgba(25, 25, 25, 0.5);;
+    top: 58%;
+    left: 5%;
+    bottom: initial;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+#banner .carousel-caption p {
+    font-size: 1.5vh;
+    font-weight: 200;
+}
+#banner .carousel-caption-de{
+    background-color: rgba(25, 25, 25, 0.5);;
+    top: 65%;
+    left: 5%;
+    bottom: initial;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    position: absolute;
+}
+#banner .carousel-caption-de p {
+    font-size: 1.5vh;
+    font-weight: 200;
+}
+.carousel-indicators {
+    bottom: 10%;
+}
+
+.text-pure{
+    font-family: 'Playfair Display'!important;
+}
+
+/* Art Outsourcing */
+#top-tittle-1-1{
+    font-size: 8em;
+    transform: translate(0%, 55%);
+}
+#top-tittle-1-2{
+    font-size: 5em;
+    transform: translate(0%,85%);
+}
+/* About Winking Corp */
+#top-tittle-2-1 {
+    font-size: 8em;
+    transform: translate(50%,55%);
+}
+#top-tittle-2-2 {
+    font-size: 5em;
+    transform: translate(50%,85%);
+}
+/* 手寫字 */
+#top-tittle-5-1{
+    font-size: 2.5em;
+    transform: translate(11%,30%);
+}
+#top-tittle-5-2{
+    font-size: 2.5em;
+    transform: translate(71%,65%);
+}
+/* News */
+#top-tittle-6-1{
+    font-size: 8em;
+    transform: translate(0%,40%);
+}
+/* & */
+#top-tittle-6-2 {
+    font-size: 5em;
+    transform: translate(30%,35%);
+}
+/* Blog */
+#top-tittle-6-3{
+    font-size: 8em;
+    transform: translate(20%,85%);
+}
+
+
+.article p{
+    font-size: 1.4rem;
+}
+
+.art_list{
+    border-top: 1px solid rgb(145, 0, 56);
+}
+.art_list a{
+    color: #000;
+}
+.art_list:last-child{
+    border-bottom: 1px solid rgb(145, 0, 56);
+}
+
+.art_list:hover {
+    background-color: rgb(145, 0, 56);
+    color: #fff;
+    transition: all 0.5s ease 0s;
+}
+.art_list:hover a{
+    color:#fff;
+    text-decoration: none;
+}
+.insidetittle p{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.description p{
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+
+
+#section3-corp {
+    width: 100%;
+    min-height: 600px;
+    background-size: cover;
+    background-color: rgb(187, 187, 187);
+    opacity: 0.9;
+    padding: 0px;
+}
+
+/* 
+
+#section3-button {
+    display: block;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 1.2rem;
+    left: calc(50% - 15vh);
+    outline: none;
+    text-decoration: none;
+    transition: all 0.5s ease 0s;
+    font-family: Arial;
+}
+.hvr-bounce-to-right {
+    color: rgb(145, 0, 56);
+    display: inline-block;
+    transform: perspective(1px) translateZ(0px);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 1px;
+    transition-property: color;
+    transition-duration: 0.5s;
+    border-width: 1.2px;
+    border-style: solid;
+    border-color: rgb(145, 0, 56);
+    border-image: initial;
+}
+.hvr-bounce-to-right::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    transform: scaleX(0);
+    transform-origin: 0px 50%;
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    background: rgb(145, 0, 56);
+}
+
+.hvr-bounce-to-right:hover, .hvr-bounce-to-right:focus, .hvr-bounce-to-right:active {
+    cursor: pointer;
+    color: white !important;
+}
+
+.hvr-bounce-to-right:hover::before, .hvr-bounce-to-right:focus::before, .hvr-bounce-to-right:active::before {
+    transform: scaleX(1);
+} */
+
+#top-tittle-6{
+    position: relative;
+    top: 300px;
+}
+
+.toall_wrap {
+    padding: 30px;
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    margin: auto auto 30px auto;
+    position: relative;
+    box-shadow: 2px 3px 20px #666;
+    background-color: #ffffff;
+}
+.toall_tittle {
+    font-family: 'Playfair Display';
+    text-align: center;
+    position: relative;
+    z-index: 5;
+    font-size: 70px!important;
+}
+.toall_content {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+.quote{
+    margin: 15rem 0 10rem 0;
+}
+.quote text{
+    font-family: 'Great Vibes';
+    
+    font-weight: 100;
+}
+
+
+
+.card_title{
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+
+.card_txt{
+    font-size:16px!important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+
+
+.modal-dialog {
+    max-width: 992px;
+}
+
+
+.card_img{
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1200px){
+    
+    #top-tittle-5-1{
+        font-size: 2.5em;
+        transform: translate(0%,15%);
+    }
+    #top-tittle-5-2{
+        font-size: 2.5em;
+        transform: translate(70%,65%);
+    }
+}
+@media screen and (max-width:992px){
+    /* Art Outsourcing */
+#top-tittle-1-1{
+    font-size: 8em;
+    transform: translate(0%, 55%);
+}
+#top-tittle-1-2{
+    font-size: 5em;
+    transform: translate(0%,85%);
+}
+/* About Winking Corp */
+#top-tittle-2-1 {
+    font-size: 8em;
+    transform: translate(25%,55%);
+}
+#top-tittle-2-2 {
+    font-size: 5em;
+    transform: translate(25%,85%);
+}
+/* 手寫字 */
+#top-tittle-5-1{
+    font-size: 1.9em;
+    transform: translate(0%,30%);
+}
+#top-tittle-5-2{
+    font-size: 2.5em;
+    transform: translate(60%,65%);
+}
+/* News */
+#top-tittle-6-1{
+    font-size: 8em;
+    transform: translate(0%,40%);
+}
+/* & */
+#top-tittle-6-2 {
+    font-size: 5em;
+    transform: translate(45%,35%);
+}
+/* Blog */
+#top-tittle-6-3{
+    font-size: 8em;
+    transform: translate(20%,85%);
+}
+    
+}
+@media screen and (max-width:768px){
+    .text-box{
+        height: 150px!important;
+        display: none!important;
+    }
+    .text-pure{
+        display: block!important;
+    }
+    #top-tittle-1-1{
+        font-size: 8em;
+        transform: translate(0%, 55%);
+    }
+    #top-tittle-1-2{
+        font-size: 5em;
+        transform: translate(0%,85%);
+    }
+    /* About Winking Corp */
+    #top-tittle-2-1 {
+        font-size: 8em;
+        transform: translate(50%,55%);
+    }
+    #top-tittle-2-2 {
+        font-size: 5em;
+        transform: translate(50%,85%);
+    }
+    /* 手寫字 */
+    #top-tittle-5-1{
+        font-size: 2.5em;
+        transform: translate(11%,30%);
+    }
+    #top-tittle-5-2{
+        font-size: 2.5em;
+        transform: translate(70%,65%);
+    }
+    /* News */
+    #top-tittle-6-1{
+        font-size: 8em;
+        transform: translate(0%,40%);
+    }
+    /* & */
+    #top-tittle-6-2 {
+        font-size: 5em;
+        transform: translate(30%,35%);
+    }
+    /* Blog */
+    #top-tittle-6-3{
+        font-size: 8em;
+        transform: translate(20%,85%);
+    }
+    
+   
+
+    #section3-corp {
+        min-height: 200px;
+    }
+
+
+
+    #banner .carousel-caption-de{
+        position: initial;
+        width: 100%!important;
+    }
+    .toall_wrap {
+        width: 90%;
+    }
+    .toall_tittle {
+        font-family: 'Playfair Display';
+        text-align: center;
+        position: relative;
+        z-index: 5;
+        font-size: 40px!important;
+    }
+    .toall_content {
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        line-height: 1.8rem;
+    }
+    
+   
+}
+
+@media screen and (max-width:576px){
+    
+   
+}
+
+
+
+
+
+
+
+
+
+
+

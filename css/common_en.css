@@ -1,0 +1,135 @@
+html, body {
+    font-family: 'Roboto';
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+#test_txt{
+    font-size: 32px;
+    font-family: 'Playfair Display';
+}
+.playfair{
+    font-family: 'Playfair Display'!important;
+}
+.roboto{
+    font-family: 'Roboto'!important;
+}
+.ff_1{
+    font-family: 'Roboto';
+    font-weight: 100;
+}
+.ff_2{
+    font-family: 'Roboto';
+}
+
+/* 手電筒文字 */
+/* ART文字 */
+.text-box {
+    height: 220px;
+    width: 100%;
+    font-weight: bold;
+    position: relative;
+    color: white;
+    font-family: 'Playfair Display';
+    font-weight: 200;
+}
+
+
+:root {
+    --shadow-color: #910038;
+    --shadow-color-light: white;
+  }
+.replace_title_wrap{
+    color: #910038;
+    transition: box-shadow 1s ease-in-out;
+    transition: color .3s ease-in-out;
+    font-family: 'Playfair Display';
+ } 
+ .replace_title_wrap:hover{
+    color: white;
+    animation: neon 2s infinite;
+    transition: box-shadow 1s ease-in-out;
+    transition: color 1s ease-in-out;
+}
+
+.replace_title{
+    font-weight: 200;
+    font-size: 120px;
+}
+.replace_title_2 {
+    font-weight: 200;
+    font-size: 80px;
+    line-height: 0;
+}
+.replace_title_3 {
+    font-size: 40px;
+}
+.quote{
+    font-family: 'Great Vibes';
+    font-weight: 100;
+}
+.quote:hover{
+    color: white;
+    animation: neon 2s infinite;
+    transition: box-shadow 1s ease-in-out;
+    transition: color 1s ease-in-out;
+}
+    
+
+
+@keyframes neon {
+    0% {
+      text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+      0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+      0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
+    }
+    50% {
+      text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+      0 0 5px var(--shadow-color-light), 0 0 15px var(--shadow-color-light), 0 0 25px var(--shadow-color-light),
+      0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 60px var(--shadow-color), 0 0 80px var(--shadow-color), 0 0 110px var(--shadow-color), 0 0 210px var(--shadow-color);
+    }
+    100% {
+      text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+      0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+      0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1200px){
+
+}
+@media screen and (max-width:992px){
+    
+}
+@media screen and (max-width:768px){
+    
+}
+@media screen and (max-width:576px){
+    .replace_title{
+        font-size: 60px;
+    }
+
+    .replace_title_2 {
+        font-size: 40px;
+        line-height: 1;
+    }
+}
