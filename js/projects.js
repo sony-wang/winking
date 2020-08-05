@@ -1222,3 +1222,37 @@ let thumbnail2main = (e) =>{
     // console.log(e);
     game_main_img.src = '..'+projects[game_name].img[e]
 }
+
+
+
+
+let game_logo_wrap = document.querySelector('.game_logo_wrap');
+let game_logo = document.querySelectorAll('.game_logo');
+console.log(game_logo.length)
+
+game_logo_wrap.addEventListener("mouseenter", function( event ) {
+    for(let q=0;q<game_logo.length;q++){
+        // console.log(this.children[q].children[0])
+        this.children[q].children[0].style.filter  = 'brightness(30%)';
+    }
+    
+})
+game_logo_wrap.addEventListener("mouseleave", function( event ) {
+    for(let q=0;q<game_logo.length;q++){
+        // console.log(this.children[q].children[0])
+        this.children[q].children[0].style.filter  = 'brightness(100%)';
+    }
+    
+})
+
+
+for(let i=0;i<game_logo.length;i++){
+    game_logo[i].addEventListener('mouseover',function(){
+        // console.log(this)
+        this.children[0].style.filter = 'brightness(100%)';
+    })
+    game_logo[i].addEventListener('mouseout',function(){
+        // console.log(this)
+        this.children[0].style.filter = 'brightness(30%)';
+    })
+}
